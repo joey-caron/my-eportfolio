@@ -14,11 +14,11 @@
 
 **<code>You can watch the video <a href="https://youtu.be/VLXJZ9kP_cU">here</a>.</code>**
 
-The entirety of this project, three rounds of enhancements on a artifact from a previous course at SNHU, was completed on a single artifact from my CS 410 Reverse Software Engineering course. It was originally designed as a customer tracking program for an investment company, accessed through a text only terminal window, and was vvery minimal. 
+**The entirety of this project, three rounds of enhancements on a artifact from a previous course at SNHU, was completed on a single artifact from my CS 410 Reverse Software Engineering course. It was originally designed as a customer tracking program for an investment company, accessed through a text only terminal window, and was vvery minimal.**
 
 #### Project 1: Software Design and Engineering
 
-This is the first round of enhancements made to the project_1 artifact. I created a new user interface, added functionality, and ported the entire program from C++ to Java. This showcases my ability to code in multiple languages, balance trade-offs with design choices, and add functionality to existing programs.
+**This is the first round of enhancements made to the project_1 artifact. I created a new user interface, added functionality, and ported the entire program from C++ to Java. This showcases my ability to code in multiple languages, balance trade-offs with design choices, and add functionality to existing programs.**
 
 <center>
   <a href="https://github.com/joey-caron/my-eportfolio/tree/Software-Design-and-Engineering" title="View the first enhancement report">
@@ -26,4 +26,4 @@ This is the first round of enhancements made to the project_1 artifact. I create
   </a>
 </center>
   
-<code>See the first enhancement report and code <a href="https://github.com/joey-caron/my-eportfolio/tree/Software-Design-and-Engineering">here</a>.</code>
+**<code>See the first enhancement report and code <a href="https://github.com/joey-caron/my-eportfolio/tree/Software-Design-and-Engineering">here</a>.</code>**
