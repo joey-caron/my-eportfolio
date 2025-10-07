@@ -27,3 +27,19 @@
 </center>
   
 **<code>See the first enhancement report and code <a href="https://github.com/joey-caron/my-eportfolio/tree/Software-Design-and-Engineering">here</a>.</code>**
+
+#### Project 2: Data Structures and Algorithms
+
+**This is the second rround of enhancements made to the project_1 artifact. I created a CRUD class to handle CRUD methods, and included a full spectrum search function allowing users to search for customers based on any of the attributes assigned to each customer, i.e. ID number, first name, address, etc. This showcases my ability to work with search function algorithms, as well as CRUD methods which are also algorithms, albeit less complex ones.**
+
+<center>
+  <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms" title="View the second enhancement report">
+    <img src="CRUD.png" height=350>
+</center>
+
+<center>
+  <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms" title="View the second enhancement report">
+    <img src="search1.png" height=350>
+</center>
+
+**<code>See the seecond enhancement report and code <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms">here</a>.</code>**
