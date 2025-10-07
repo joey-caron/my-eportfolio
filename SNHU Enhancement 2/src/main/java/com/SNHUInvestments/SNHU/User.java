@@ -26,6 +26,10 @@ public class User {
     public String getUsername() {
 	    return username;
     }
+
+    String getPasswordHash() {
+        return passwordHash;
+    }
  
     public String getName() {
 	     return name;

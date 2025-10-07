@@ -1,6 +1,6 @@
 package com.SNHUInvestments.SNHU;
 
-//Displayy class for SNHU Investments
+//Display class for SNHU Investments
 //Houses main method
 //Created by Joseph Caron
 
@@ -23,6 +23,7 @@ public class Display extends JFrame {
     private final JPanel editPanel;
     private final JPanel deletePanel;
     Login log = new Login();
+    CRUD crud = new CRUD();
 
 
     public Display() {
@@ -123,13 +124,19 @@ public class Display extends JFrame {
 
         // Action for Register and Back buttons
         register.addActionListener(e -> {
-            // FIXME: CRUD method to add new user
-            /* if user added successfully
-            *  output message saying so
-            *
-            * if username already exists
-            * output message
-            */
+            String username = newUser.getText();
+            char[] password = newPass.getPassword();
+            String name = nameField.getText();
+            String jobTitle = jobField.getText();
+            User user = new User(username, password, name, jobTitle);
+            if (crud.searchUserByUsername(username)) {
+                System.out.println("Username already exists, choose a different username.");
+            }
+            else {
+                crud.addUser(user);
+                System.out.println("User added successfully. Go back to login.");
+            }
+
         });
         regBack.addActionListener(e -> switchPanels(startPanel));
 
@@ -247,12 +254,16 @@ public class Display extends JFrame {
             String custPhone = phone.getText();
             String custEmail = email.getText();
             String custStatus = Objects.requireNonNull(status.getSelectedItem()).toString();
-            // FIXME: CRUD method to add customer
-            /* if customer ID already exists
-            * output message to try again
-            *
-            * else customer added successfully message
-            */
+            Customer customer = new Customer(customerId, custFirst, custLast, custAddress,
+                    custPhone, custEmail, custStatus);
+            if (crud.searchCustById(customerId)) {
+                System.out.println("Customer ID already in use.");
+            }
+            else {
+                crud.addCustomer(customer);
+                System.out.println("Customer added successfully.");
+            }
+
         });
         addBack.addActionListener(e -> switchPanels(menuPanel));
 
@@ -301,8 +312,26 @@ public class Display extends JFrame {
 
         //Action for Search and Back buttons
         search.addActionListener(e -> {
-            // FIXME: CRUD method to search for customer
-            // output results in output field
+            String choice = Objects.requireNonNull(searchField.getSelectedItem()).toString();
+            String searchValue = input.getText();
+            if (Objects.equals(searchValue, "")) {
+                crud.getAllCustomers();
+            }
+            else {
+                if (Objects.equals(choice, "Customer ID")) {
+                    crud.getCustomerById(searchValue);
+                } else if (Objects.equals(choice, "First Name")) {
+                    crud.getCustomerByFirst(searchValue);
+                } else if (Objects.equals(choice, "Last Name")) {
+                    crud.getCustomerByLast(searchValue);
+                } else if (Objects.equals(choice, "Address")) {
+                    crud.getCustomerByAddress(searchValue);
+                } else if (Objects.equals(choice, "Phone")) {
+                    crud.getCustomerByPhone(searchValue);
+                } else if (Objects.equals(choice, "Email")) {
+                    crud.getCustomerByEmail(searchValue);
+                }
+            }
         });
         searchBack.addActionListener(e -> switchPanels(menuPanel));
 
@@ -325,15 +354,20 @@ public class Display extends JFrame {
         JTextField customerId = new JTextField(10);
         customerId.setPreferredSize(new Dimension(200,20));
         customerId.setMaximumSize(customerId.getPreferredSize());
-        String[] editChoices = {"First Name", "Last Name", "Address", "Phone", "Email"};
+        String[] editChoices = {"First Name", "Last Name", "Address", "Phone", "Email", "Status"};
         JComboBox<String> editField = new JComboBox<>(editChoices);
         editField.setPreferredSize(new Dimension(200,20));
         editField.setMaximumSize(editField.getPreferredSize());
+        String[] statusChoices = {"Brokerage", "Retirement"};
+        JComboBox<String> statusOpt = new JComboBox<>(statusChoices);
+        statusOpt.setPreferredSize(new Dimension(200, 20));
+        statusOpt.setMaximumSize(statusOpt.getPreferredSize());
         JTextField value = new JTextField(20);
         value.setPreferredSize(new Dimension(200,20));
         value.setMaximumSize(value.getPreferredSize());
         JButton edit = new JButton("Submit Changes");
         editField.setSelectedIndex(0);
+        statusOpt.setSelectedIndex(0);
         JButton editBack = new JButton("Back");
         JTextArea editOut = new JTextArea();
 
@@ -341,13 +375,33 @@ public class Display extends JFrame {
         edit.addActionListener(e -> {
             String customerId1 = custId.getText();
             String column = Objects.requireNonNull(editField.getSelectedItem()).toString();
+            String status1 = Objects.requireNonNull(statusOpt.getSelectedItem().toString());
             String value1 = input.getText();
-            // FIXME: CRUD method to update customer
-            /* if update successful
-            * output message saying update successful
-            *
-            * else error
-             */
+            if (!crud.searchCustById(customerId1)) {
+                System.out.println("Customer ID not found");
+            }
+            else {
+                if (Objects.equals(column, "First Name")) {
+                    crud.editCustomerFirst(value1, customerId1);
+                }
+                else if (Objects.equals(column, "Last Name")) {
+                    crud.editCustomerLast(value1, customerId1);
+                }
+                else if (Objects.equals(column,"Address")) {
+                    crud.editCustomerAddress(value1, customerId1);
+                }
+                else if (Objects.equals(column, "Phone")) {
+                    crud.editCustomerPhone(value1, customerId1);
+                }
+                else if (Objects.equals(column, "Email")) {
+                    crud.editCustomerEmail(value1, customerId1);
+                }
+                else if (Objects.equals(column, "Status")) {
+                    crud.editCustomerStatus(status1, customerId1);
+                }
+                System.out.println("Customer updated successfully.");
+            }
+
         });
         editBack.addActionListener(e -> switchPanels(menuPanel));
 
@@ -380,12 +434,13 @@ public class Display extends JFrame {
         // Action for Delete and Back buttons
         deleteCust.addActionListener(e -> {
             String customerId2 = custId.getText();
-            // FIXME: CRUD method to delete customer
-            /* if customerID exists
-            * output message saying customer deleted
-            * else
-            * output message saying id not found
-             */
+            if (!crud.searchCustById(customerId2)) {
+                System.out.println("Customer ID not found.");
+            }
+            else {
+                crud.deleteCustomer(customerId2);
+                System.out.println("Customer deleted successfully.");
+            }
         });
         deleteBack.addActionListener(e -> switchPanels(menuPanel));
 
