@@ -35,9 +35,7 @@
 <center>
   <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms" title="View the second enhancement report">
     <img src="CRUD.png" height=350>
-</center>
 
-<center>
   <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms" title="View the second enhancement report">
     <img src="search1.png" height=350>
 </center>
