@@ -14,7 +14,7 @@
 
 **<code>You can watch the video <a href="https://youtu.be/VLXJZ9kP_cU">here</a>.</code>**
 
-**The entirety of this project, three rounds of enhancements on a artifact from a previous course at SNHU, was completed on a single artifact from my CS 410 Reverse Software Engineering course. It was originally designed as a customer tracking program for an investment company, accessed through a text only terminal window, and was vvery minimal.**
+**The entirety of this project, three rounds of enhancements on a artifact from a previous course at SNHU, was completed on a single artifact from my CS 410 Reverse Software Engineering course. It was originally designed as a customer tracking program for an investment company, accessed through a text only terminal window, and was very minimal.**
 
 #### Project 1: Software Design and Engineering
 
@@ -44,7 +44,7 @@
   </a>
 </center>
 
-**<code>See the seecond enhancement report and code <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms">here</a>.</code>**
+**<code>See the second enhancement report and code <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms">here</a>.</code>**
 
 #### Project 3: Databases
 
