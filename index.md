@@ -1,5 +1,5 @@
 <center>
-  <img src="profilepic.jpg" height=200 width=169>
+  <img src="profilepic.jpg" alt="Profile Picture" height=200 width=169>
 </center>
 
 # Computer Science Capstone
@@ -22,7 +22,7 @@
 
 <center>
   <a href="https://github.com/joey-caron/my-eportfolio/tree/Software-Design-and-Engineering" title="View the first enhancement report">
-    <img src="Add Customer.png" height=350>
+    <img src="Add Customer.png" alt="Add Customer screen after enhancements" height=350>
   </a>
 </center>
   
@@ -34,13 +34,13 @@
 
 <center>
   <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms" title="View the second enhancement report">
-    <img src="CRUD.png" height=350>
+    <img src="CRUD.png" alt="CRUD Class code" height=350>
   </a>
 </center>
 
 <center>
   <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms" title="View the second enhancement report">
-    <img src="search1.png" height=350>
+    <img src="search1.png" alt="Search Algorithm code" height=350>
   </a>
 </center>
 
