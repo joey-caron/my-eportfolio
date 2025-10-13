@@ -30,7 +30,7 @@
 
 #### Project 2: Data Structures and Algorithms
 
-**This is the second rround of enhancements made to the project_1 artifact. I created a CRUD class to handle CRUD methods, and included a full spectrum search function allowing users to search for customers based on any of the attributes assigned to each customer, i.e. ID number, first name, address, etc. This showcases my ability to work with search function algorithms, as well as CRUD methods which are also algorithms, albeit less complex ones.**
+**This is the second round of enhancements made to the project_1 artifact. I created a CRUD class to handle CRUD methods, and included a full spectrum search function allowing users to search for customers based on any of the attributes assigned to each customer, i.e. ID number, first name, address, etc. This showcases my ability to work with search function algorithms, as well as CRUD methods which are also algorithms, albeit less complex ones.**
 
 <center>
   <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms" title="View the second enhancement report">
@@ -45,3 +45,15 @@
 </center>
 
 **<code>See the seecond enhancement report and code <a href="https://github.com/joey-caron/my-eportfolio/tree/Data-Structures-and-Algorithms">here</a>.</code>**
+
+#### Project 3: Databases
+
+**This is the final round of enhancements made to the project_1 artifact. I created a SQLite database using DBeaver to house all user and customer information. I aso integrated the CRUD class created in the previous enhancements to be able to manage the database. The database consists of two tables: the users table and the customers table. The users table has columns of "username", "password", "name" and "job_title". The username column is the primary key for the table. The customers table has columns of "custId", "first_name", "last_name", "address", "phone", "email" and "status". The custId column is the primary key. This showcases my ability to create and manage databases, as well as integrating databases to a java based program.**
+
+<center>
+  <a href="https://github.com/joey_caron/my-eportfolio/tree/Databases" title="View the third enhancement report">
+    <img src="Customers.png" alt="Customers Table in DBeaver" height=350>
+  </a>
+</center>
+
+**<code>See the third enhancement report and code <a href="https://github.com/joey_caron/my-eportfolio/tree/Databases">here</a>.</code>**
