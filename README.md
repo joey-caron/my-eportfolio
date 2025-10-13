@@ -41,3 +41,13 @@ In the future, I may choose to continue to make updates to this program for both
 <img src="CRUD.png">
 
 <img src="search1.png">
+
+### <pre align="center">Enhanced Screens after Databases enhancements</pre>
+
+<img src="Customers.png">
+
+<img src="Users.png">
+
+<img src="Register2.png">
+
+<img src="Search2.png">
