@@ -11,7 +11,7 @@ The following course outcomes have been met:
 
 ### <pre align="center">Future updates</pre>
 
-In the future, I will be performing enhancements for categoory 3, Databases. The updates will include the creation of an embedded SQLite database to hold tables of users and customers. I will also be continuing to make changes to the UI design and tweaks to the existing functionality to allow seamless integration of the new functionality.
+In the future, I will be performing enhancements for category 3, Databases. The updates will include the creation of an embedded SQLite database to hold tables of users and customers. I will also be continuing to make changes to the UI design and tweaks to the existing functionality to allow seamless integration of the new functionality.
 
 ### <pre align="center">Original Version</pre>
 
