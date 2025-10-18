@@ -13,7 +13,7 @@
 **The time I spent in the Computer Science program at Southern New Hampshire University has helped shape my professional goals and values. Prior to my experience at SNHU, I didn’t know much about programming. This means I have less experience, but I also did not develop sloppy habits by teaching myself. When I first entered the program, I intended to become a software developer. Now that I have nearly completed my degree, I truly want to enter the field as a software engineer, possibly even working in DevSecOps.**
 
 <center>
-	<kbd><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Programming_code.jpg" alt="Software Engineering" height=200></kbd>
+	<kbd><img style="margin: 10px 0px" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Programming_code.jpg" alt="Software Engineering" height=200></kbd>
 </center>
 
 **This ePortfolio showcases my skills in software engineering, specifically my ability to plan and develop programs. While the work shown in this ePortfolio does not completely reflect all of the work I accomplished throughout the Computer Science program, it does show some of my ability, specifically in the categories of software design and engineering, data structures and algorithms, and databases. Further to what is shown here, I also have developed other skills throughout my time in the computer science program, such as communicating with stakeholders, collaborating in a team environment, and security.**
@@ -27,7 +27,7 @@
 **Programming security was another skill that I learned a lot about throughout my schooling. Particularly in my Secure Coding course. I have gained knowledge and skill with looking for gaps in the security of programs, as well as having a security mindset from the start. Finding issues ahead of time such as SQL injection, or not clearing a text entry field on page navigation has become second nature.**
 
 <center>
-	<kbd><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cybersecurity.png/960px-Cybersecurity.png?20180725155927" alt="Security" height=200></kbd>
+	<kbd><img style="margin: 10px 0px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cybersecurity.png/960px-Cybersecurity.png?20180725155927" alt="Security" height=200></kbd>
 </center>
 
 **For the enhancements made in this ePortfolio, I could have chosen three separate artifacts and used a different one for each category. However, the artifact I chose was very simple, and yet had a lot of room for improvement. I also felt that, as I would be making so many functionality changes and even porting from C++ to Java, it was a great option as it would show not only my abilities within the above categories, but also provided the added benefit of being close to a complete program from scratch, treating the original mainly as a guideline.**
