@@ -1,10 +1,18 @@
-<div class="embed-container">
-      <iframe
-        width="640"
-        height="390"
-        src="https://www.youtube.com/embed/{{ include.id }}"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
-    </div>
- 
+<head>
+  <style>
+    .embed-container {
+      margin: 10px; /* Applies 10px margin on all sides */
+    }
+  </style>
+</head>
+<body>
+  <div class="embed-container">
+    <iframe
+      width="640"
+      height="390"
+      src="https://www.youtube.com/embed/{{ include.id }}"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </div>
+</body>
