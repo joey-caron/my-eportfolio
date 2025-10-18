@@ -12,9 +12,19 @@
 ### Professional Self Assessment
 **The time I spent in the Computer Science program at Southern New Hampshire University has helped shape my professional goals and values. Prior to my experience at SNHU, I didn’t know much about programming. This means I have less experience, but I also did not develop sloppy habits by teaching myself. When I first entered the program, I intended to become a software developer. Now that I have nearly completed my degree, I truly want to enter the field as a software engineer, possibly even working in DevSecOps.**
 
+<center>
+	<kbd><img src="Software Engineering.jpg" alt="Software Engineering" height=200></kbd>
+</center>
+
 **This ePortfolio showcases my skills in software engineering, specifically my ability to plan and develop programs. While the work shown in this ePortfolio does not completely reflect all of the work I accomplished throughout the Computer Science program, it does show some of my ability, specifically in the categories of software design and engineering, data structures and algorithms, and databases. Further to what is shown here, I also have developed other skills throughout my time in the computer science program, such as communicating with stakeholders, collaborating in a team environment, and security.**
 
 **Throughout the computer science program at SNHU, I have gained experience collaborating in a team environment by taking part in group discussions and helping my peers with their own projects when needed. In a previous course, I ran into an issue with pushing a commit to github via powershell. I found the root of the issue and was able to get the commit pushed. Shortly after this, one of my peers in the course also ran into the same issue. I was able to explain the solution I had found and she was able to finish her own work. My own personal work experience involves many positions as part of a team, requiring collaboration and teamwork.**
+
+<center>
+	<kbd><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Small_World_Social_Teamwork.JPG" alt="Teamwork" height=200></kbd>
+</center>
+
+<kbd><img style="float: right" src="https://upload.wikimedia.org/wikipedia/commons/1/19/SDLC_-_Software_Development_Life_Cycle.jpg" alt="SDLC" height=200></kbd>
 
 **Communicating with stakeholders is another skill I have learned while going through the computer science program. In the SDLC course, I learned about the software development lifecycle and the various roles of team members in an agile scrum team. For part of this course, I had the role of product owner and learned about communicating with stakeholders such as interviewing, taking good notes, and prioritizing the stakeholder needs, which requires a firm understanding of those needs through solid communication. While not exactly the same, I also have a lot of experience working in customer service roles outside of school which could translate into communication with stakeholders.**
 
