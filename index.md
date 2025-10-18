@@ -38,7 +38,8 @@
 ### Code Review
 **I created a code review video in order to get a comprehensive look at one of my earlier projects from my college career. I went over the entirety of the code, explaining it’s intended use and faults, as well as going over my planned enhancements.**
 
-**<code>You can watch the video <a href="https://youtu.be/VLXJZ9kP_cU">here</a>.</code>**
+**You can watch the video here.**
+ {% include youtube.html id="VLXJZ9kP_cU" %}
 
 **The entirety of this project, three rounds of enhancements on a artifact from a previous course at SNHU, was completed on a single artifact from my CS 410 Reverse Software Engineering course. It was originally designed as a customer tracking program for an investment company, accessed through a text only terminal window, and was very minimal.**
 
